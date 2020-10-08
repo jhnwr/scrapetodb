@@ -22,3 +22,6 @@ conn.commit()
 c.execute('''SELECT * FROM meals''')
 results = c.fetchall()
 print(results)
+
+#close database connection
+conn.close()
